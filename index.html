@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Decodificador Alura </title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+
+
+<header>
+
+  <div class="vector-alura">
+    <img class="vectoralura" src="vectoralura.png" alt="Logo Alura">
+  </div>
+
+</header>
+
+
+<body>
+
+  <section class="secao">
+    <div class="container">
+      <div class="row">
+        <div class="main">
+          <label for="mainText"><textarea placeholder="Digite seu texto aqui..." name="" cols="30" rows="10" id="mainText"></textarea>
+          </label>
+
+
+          <div class="ponto">
+
+            <div>
+              <img class="ponto-de-exclamacao" src="vectorpontodeexclamacao.png" alt="ponto de exclamação">
+            </div>
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          <!--Botões criptografar e descriptografar-->
+
+          <div class="controls">
+            <button class="criptografar"><i class="bi bi-lock">
+              </i>Criptografar</button>
+            <button class="descriptografar"><i class="bi bi-unlock"></i>
+              Descriptografar
+            </button>
+
+          </div>
+        </div>
+
+        <div class="output">
+          <textarea readonly placeholder="Seu texto vai aparecer aqui..." class="outputText"></textarea>
+          <button class="copy">
+            <i class="copiar"></i>
+            <span>Copiar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <footer>
+    <p>Desenvolvido por Lygia Roque</p>
+  </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
